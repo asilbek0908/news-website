@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+            integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Sen:wght@700&display=swap" rel="stylesheet">
+        <link href="./images/logo.webp" rel="icon">
+        <link href="./styles/overall.css" rel="stylesheet">
+        <link href="./styles/blog.css" rel="stylesheet">
+        <title>Blog Page</title>
+    </head>
+<body>
+     <!-- Header -->
+     <section id="header" class="header">
+        <div class="container">
+
+            <div class="header__info">
+                <a class="header__logo" href="./index.html">
+                    <img src="./images/Logo (7).png" alt="news logo">
+                </a>
+
+                <ul class="navigation">
+                    <li class="nav__lists">
+                        <a class="nav__list " href="./index.html">Home</a>
+                    </li>
+                    <li class="nav__lists">
+                        <a class="nav__list" href="./startup.html">Startup</a>
+                    </li>
+                    <li class="nav__lists">
+                        <a class="nav__list " href="./about.html">About Us</a>
+                    </li>
+                    <li class="nav__lists">
+                        <a class="nav__list act" href="#">Blog</a>
+                    </li>
+                    <li class="nav__lists">
+                        <a class="nav__list " href="./register.html">Register</a>
+                    </li>
+
+                    <a class="header__link " href="./login.html">Login</a>
+                </ul>
+
+                <div id="menu__btn" class="fas fa-bars icons"></div>
+            </div>
+
+        </div>
+     </section>
+    <!-- Header -->
+
+    <!-- Image section -->
+    <section id="Image" class="Image">
+        <div class="container">
+            <div class="bg__mage">
+                <img src="./images/bg-image2.png" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- Image section -->
+    
+    <!-- user section -->
+    <section id="user" class="user">
+        <div class="container">
+            <h1 class="user__title">Users Opinion</h1>
+
+            <div class="userData">
+            
+            </div>
+
+
+            <form class="form" method="POST" data-netlify="true">
+                <input type="hidden" id="update-id">
+                <input class="input__name" id =" name" type="text" placeholder="Firstname">
+                <textarea id="text" cols="30" rows="4" placeholder="Write opinion"></textarea>
+                <button class="submit" type="button">Save</button>
+            </form>
+        </div>
+    </section>
+    <!-- user section -->
+    
+    <!-- Footer section -->
+    <section id="footer" class="footer">
+        <div class="container">
+            <div class="footer__infos">
+                <div class="footer__info">
+                    <h3 class="footer__address">Finstreet 118 2561 Fintown</h3>
+                    <h3 class="footer__email">Hello@finsweet.com  020 7993 2905</h3>
+                </div>
+                <ul class="footer__icons">
+                    <li class="footer__icon">
+                        <a class="fa-brands fa-instagram" href="#"></a>
+                    </li>
+                    <li class="footer__icon">
+                        <a class="fa-brands fa-linkedin"  href="#"></a>
+                    </li>
+                    <li class="footer__icon">
+                        <a class="fa-brands fa-facebook"  href="#"></a>
+                    </li>
+                    <li class="footer__icon">
+                        <a class="fa-brands fa-twitter"  href="#"></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- Footer section-->
+    <script src="./js/blog.js"></script>
+</body>
+</html>

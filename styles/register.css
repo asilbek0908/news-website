@@ -1,0 +1,51 @@
+/* Register */
+
+.registration{
+    margin: 100px 0;
+}
+
+.title{
+    font-family: 'Sen';
+font-weight: 700;
+font-size: 48px;
+line-height: 64px;
+text-align: center;
+letter-spacing: -2px;
+
+color: #232536;
+}
+
+.form{
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    margin: 0 auto;
+}
+
+.form input{
+    padding: 10px;
+}
+
+.btn {
+    padding: 10px;
+    cursor: pointer;
+    background: yellow;
+    color: #000;
+    border: none;
+}
+
+.btn:hover{
+    background: #fff;
+    border: 1px solid #000;
+}
+
+
+.text{
+    color: red;
+}
+
+input.warn {
+    border: 2px solid red;
+}
+

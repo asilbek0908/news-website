@@ -1,0 +1,96 @@
+/* Intro */
+
+.intro {
+  background: #f4f0f8;
+  padding: 80px 0;
+}
+
+.intro__info {
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.intro__title {
+  font-family: "Sen";
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 64px;
+  text-align: center;
+  letter-spacing: -2px;
+  color: #232536;
+}
+
+.intro__desc {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+  color: #6d6e76;
+  margin-top: 16px;
+}
+
+
+/* lists */
+.loader {
+  margin: 0 auto;    
+  width: 48px;
+      height: 48px;
+      border-width: 3px;
+      border-style: dashed solid  solid dotted;
+      border-color: #FF3D00 #FF3D00 transparent #FF3D00;
+      border-radius: 50%;
+      display: inline-block;
+      position: relative;
+      box-sizing: border-box;
+      animation: rotation 1s linear infinite;
+    }
+    .loader::after {
+      content: '';  
+      box-sizing: border-box;
+      position: absolute;
+      left: 20px;
+      top: 31px;
+      border: 10px solid transparent;
+      border-right-color: #FF3D00;
+      transform: rotate(-40deg);
+    }
+    
+    @keyframes rotation {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+    } 
+
+    .search__movie{
+      max-width: 300px;
+      margin: 100px auto;
+    }
+    .search{
+padding: 5px;
+    }
+
+    .btn{
+      background: yellow;
+      border: none;
+      padding: 10px;
+      color: black;
+      cursor: pointer;
+      border-radius: 5px;
+  }
+  
+  .btn:hover{
+      background: #fff;
+      border: 1px solid black;
+  }
+    .movie__list{
+      max-width: 400px;
+      margin: 0 auto;
+    }
+
+   .movie__list img{
+     width: 100%;
+   }
